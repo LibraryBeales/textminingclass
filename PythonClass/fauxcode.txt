@@ -1,0 +1,28 @@
+Import regular expressions into memory.  We will need these to define what kinds of words Python is looking for in different commands.
+
+Open the list of stop words we have in the file called 'words' and assign the file to a variable
+Look at each word, and convert any capital letters to lowercase
+
+Create an empty SET called 'stops', so we can use our words more effectively in Python
+Look at each word in the file 'words'.  Remove the whitespace, and add it to the SET called 'stops'.
+
+
+Look at the SET 'stops' so we can make sure we have what we want.
+
+
+Open the text file called 'lovecraft' 
+Look at each word, and convert any capital letters to lowercase
+
+Create an empty LIST called 'words', so we can use our text more effectively in Python
+Look at each word in the file 'lovecraft'.  Remove the whitespace, and add it to the LIST called 'words'.  BUt onlu find words that use a-z, hyphens and apostrophes.
+
+Create a third empty LIST called 'wcount'
+Go through the LIST of words we created from the lovecraft text.
+Compare each one to the SET of stopwords we created.
+
+If the word is not in the SET of stopwords, then we add it to the LIST wcount
+
+Show how many unique words we found in the lovecraft stories.  
+Show the first 100 words in the list...
+
+
